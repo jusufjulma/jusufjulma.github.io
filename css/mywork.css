@@ -1,0 +1,207 @@
+@keyframes pulse{
+  from {transform: scale(1)}
+  to {transform: scale(1.05)}
+}
+#mywork-page-body{
+  background-image: url(../images/back1.jpg);
+  background-color: #aaa;
+  position: absolute;
+  line-height: 1;
+  font-family: 'Stardos Stencil', cursive;
+}
+h1{
+  text-align: center;
+  color: var(--main-text-color);
+  font-size: 3rem;
+  padding: 10px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+h2{
+  text-align: center;
+  color: var(--main-text-color);
+  font-size: 2rem;
+  text-transform: lowercase;
+}
+h3{
+  text-align: center;
+  color: var(--main-text-color);
+}
+.projects-container{
+  /* height: 75%; */
+  height: 700px;
+  /* outline: solid blue 2px; */
+  display: grid;
+  margin: 0 20px 70px 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px 20px;
+}
+.project{
+  outline: double 5px #111;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 6fr;
+  grid-gap: 20px;
+  padding-top: 5px;
+}
+.project h2{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+#github-logo-h2{
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50px, 0px);
+  background-image: url(../images/github.png);
+  filter: sepia(1);
+  opacity: 0.5;
+  border-radius: 25%;
+  box-shadow: 0px 0px 3px 2px var(--main-text-color);
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: contain;
+}
+#github-logo-h2:hover{
+  opacity: 1;
+}
+.project1{
+  /* outline: green solid 1px; */
+  margin: 0px 20px 20px 20px;
+  width: 200px;
+  height: 200px;
+  justify-self: center;
+  filter: sepia(0.8);
+  box-shadow: 0 0 5px 3px #000;
+}
+.project1:hover{
+  filter: sepia(0);
+  animation: pulse 0.4s infinite linear alternate;
+}
+#project1-1{
+  background-image: url(../images/mywork/speedtest.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project1-2{
+  background-image: url(../images/mywork/monty.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project1-3{
+  background-image: url(../images/mywork/encryption.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project2{
+  outline: double 5px #111;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 6fr;
+  grid-gap: 20px;
+  padding-top: 5px;
+}
+#project2 h2{
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.project2{
+  /* outline: green solid 1px; */
+  margin: 0px 20px 20px 20px;
+  width: 140px;
+  height: 200px;
+  justify-self: center;
+  filter: sepia(0.8);
+  box-shadow: 0 0 5px 3px #000;
+}
+.project2:hover{
+  filter: sepia(0);
+  animation: pulse 0.4s infinite linear alternate;
+}
+#project2-1{
+  background-image: url(../images/mywork/FSJB2017_thumbnail.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project2-2{
+  background-image: url(../images/mywork/musakellari2017_thumbnail.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project2-3{
+  background-image: url(../images/mywork/Tiimalasi.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#project2-4{
+  background-image: url(../images/mywork/tsgame_thumbnail.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project3{
+  outline: double 5px #111;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 6fr;
+  grid-gap: 20px;
+  padding-top: 5px;
+}
+#project3 h2{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.project3{
+  /* outline: green solid 1px; */
+  margin: 0px 20px 20px 20px;
+  height: 200px;
+  justify-self: center;
+  filter: sepia(0.8);
+  box-shadow: 0 0 5px 3px #000;
+}
+.project3:hover{
+  filter: sepia(0);
+}
+#project3-1{
+  background-image: url(../images/mywork/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project3-2{
+  background-image: url(../images/mywork/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project4{
+  /* outline: green solid 1px; */
+  margin: 0px 20px 20px 20px;
+  width: 200px;
+  height: 200px;
+  justify-self: center;
+  filter: sepia(0.8);
+  box-shadow: 0 0 5px 3px #000;
+}
+.project4:hover{
+  filter: sepia(0);
+}
+#project4-1{
+  background-image: url(../images/mywork/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project4-2{
+  background-image: url(../images/mywork/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#project4-3{
+  background-image: url(../images/mywork/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footerkicker{
+  position: static;
+  bottom: 0;
+  width: 100%;
+  outline: red solid 3px;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Stardos+Stencil:400,700|PT+Sans+Narrow:400,700');
+/* font-family: 'Stardos Stencil', cursive; */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+
+:root{
+  /* --main-text-color: #CCC839; */
+  --main-text-color: #C7C502;
+  color: var(--main-text-color);
+}
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  line-height: 1.2;
+  text-shadow: 2px 2px black;
+}
+.navbar{
+  font-family: 'Stardos Stencil', cursive;
+}
+footer{
+  line-height: 1;
+  font-family: 'Stardos Stencil', cursive;
+}
+a{
+  color: #C0127C;
+  text-shadow: none;
+}
+a:visited{
+  color: #880033;
+}
+p, h3{
+  font-family: 'PT Sans Narrow', sans-serif;
+}

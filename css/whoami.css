@@ -1,0 +1,202 @@
+body{
+  background-image: url(../images/whoami.jpg);
+}
+footer{
+  position: static;
+  background-color: #000;
+}
+/* .whoami-page1{
+  background-image: url(../images/whoami.jpg);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  padding-top: 80px;
+  width: 100%;
+  height: 1000px;
+} */
+.textbox-1{
+  position: relative;
+  margin-left: 45%;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+}
+.textbox-2{
+  position: relative;
+  margin-left: 50%;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+}
+.textbox-3{
+  position: relative;
+  margin-left: 55%;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: var(--main-text-color);
+}
+.textbox-4{
+  display: inline-block;
+  position: relative;
+  top: -80px;
+  margin-left: 10%;
+  height: 300px;
+  width: 600px;
+  background-image: url(../images/codesnippet.jpg);
+  background-color: rgba(200, 200, 60, 0.8);
+  background-blend-mode: luminosity;
+  mix-blend-mode: overlay;
+  opacity: 0.7;
+  box-shadow: 0 0 10px 2px var(--main-text-color);
+  /* background-position-y: 146%; */
+  animation: scrollcode 30s linear infinite;
+}
+.textbox-4:hover{
+  opacity: 1;
+}
+@keyframes scrollcode{
+  0% {background-position-y: 0%;}
+  100% {background-position-y: 146%;}
+}
+
+.whoami-page2{
+  background-image: url(../images/back2.jpg);
+  background-color: #aaa;
+  margin: 0 0 0 0;
+  padding: 0 0;
+  width: 100%;
+  height: 900px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 1.5rem;
+}
+.skillbox-1{
+  /* outline: solid 1px blue; */
+  height: 400px;
+  width: 700px;
+  padding-left: 50px;
+}
+.skillbox-2{
+  /* outline: solid 1px blue; */
+  height: 400px;
+  width: 700px;
+  padding-left: 50px;
+}
+.skill-header{
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  color: var(--main-text-color);
+  border-bottom: 3px solid var(--main-text-color);
+  margin-bottom: 75px;
+}
+.whoami-infobox{
+  /* outline: solid 1px blue; */
+  height: 400px;
+  width: 700px;
+  padding-left: 50px;
+}
+.info-text-container{
+  text-align: left;
+  color: var(--main-text-color);
+}
+.line{
+  border-bottom: 2px solid var(--main-text-color);
+  width: 700px;
+  margin-top: 50px;
+  opacity: 0.3;
+}
+.skill-bar{
+  float: left;
+  margin-left: 70px;
+  transform: translateY(-100%);
+  outline: 3px solid black;
+  box-shadow: 2px 3px 3px 3px #000;
+  width: 50px;
+  height: 220px;
+  background-image: url(../images/progressbar_y.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+#skillbar-1{
+  height: 180px;
+}
+#skillbar-2{
+  height: 160px;
+}
+#skillbar-3{
+  height: 160px;
+}
+#skillbar-4{
+  height: 100px;
+}
+#skillbar-5{
+  height: 80px;
+}
+.desc-programming-container{
+  color: var(--main-text-color);
+  /* font-size: 2rem; */
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.desc-programming{
+  margin-left: 50px;
+  float: left;
+  width: 70px;
+  text-align: center;
+  /* outline: solid 1px green; */
+}
+.desc-multimedia-container{
+  color: var(--main-text-color);
+  /* font-size: 2rem; */
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.desc-multimedia{
+  margin-left: -20px;
+  float: left;
+  width: 140px;
+  text-align: left;
+  /* outline: solid 1px green; */
+  transform: rotate(22deg);
+}
+#skillbar-6{
+  height: 180px;
+}
+#skillbar-7{
+  height: 210px;
+}
+#skillbar-8{
+  height: 100px;
+}
+#skillbar-9{
+  height: 170px;
+}
+#skillbar-10{
+  height: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EOF */

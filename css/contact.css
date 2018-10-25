@@ -1,0 +1,91 @@
+#contact-page-body{
+  background-image: url(../images/back1.jpg);
+  background-color: #aaa;
+  position: absolute;
+  line-height: 1;
+  font-family: 'Stardos Stencil', cursive;
+  height: 100%;
+}
+h1{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.25rem;
+}
+
+.left-side{
+  /* border: #000 15px solid; */
+  border-radius: 500px;
+  box-shadow: 0px 0px 15px 15px #000;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 50px 50px;
+  display: grid;
+  justify-items: center;
+  animation: syckenings 1s alternate infinite;
+}
+.left-grid-cell{
+  /* border: magenta 5px solid; */
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+}
+.logo-cell-container{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+.logo-cell, .logo-cell-name{
+  margin: 5px 30px;
+  width: 80px;
+  text-align: center;
+}
+.logo-cell:hover{
+  filter: brightness(1.5);
+}
+#my-profiles{
+  width: auto;
+}
+#contact-linkedin-link{
+  background-image: url(../images/linkedin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 2px 2px 2px #000;
+  animation: movearound 2s infinite linear;
+}
+#contact-github-link{
+  background-image: url(../images/github.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 2px 2px 2px #000;
+  animation: movearound 2.2s infinite linear reverse;
+}
+#contact-codepen-link{
+  background-image: url(../images/codepen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #eee;
+  box-shadow: 2px 2px 2px #000;
+  animation: movearound 1.8s infinite linear;
+}
+#contact-me-here{
+  width: auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+@keyframes movearound{
+  0%{transform: translate(0, 0);}
+  25%{transform: translate(1%, 1%);}
+  50%{transform: translate(-1%, 2%);}
+  75%{transform: translate(-2%, 1%);}
+  100%{transform: translate(0, 0);}
+}
+@keyframes syckenings{
+    0%{box-shadow: 0px 0px 15px 15px #000;}
+    100%{box-shadow: 0px 0px 15px 13px #000;}
+}

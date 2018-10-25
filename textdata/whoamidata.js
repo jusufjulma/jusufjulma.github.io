@@ -1,0 +1,115 @@
+const text1 = document.getElementById('text1');
+const text2 = document.getElementById('text2');
+const text3 = document.getElementById('text3');
+const text4 = document.getElementById('text4');
+const text5 = document.getElementById('text5');
+const text6 = document.getElementById('text6');
+const text7 = document.getElementById('text7');
+const text8 = document.getElementById('text8');
+const text9 = document.getElementById('text9');
+const text10 = document.getElementById('text10');
+const text11 = document.getElementById('text11');
+const text12 = document.getElementById('text12');
+const text13 = document.getElementById('text13');
+const text14 = document.getElementById('text14');
+const text15 = document.getElementById('text15');
+const text16 = document.getElementById('text16');
+const text17 = document.getElementById('text17');
+const text18 = document.getElementById('text18');
+const text19 = document.getElementById('text19');
+const text20 = document.getElementById('text20');
+const text21 = document.getElementById('text21');
+const text22 = document.getElementById('text22');
+const text23 = document.getElementById('text23');
+const text24 = document.getElementById('text24');
+const text25 = document.getElementById('text25');
+const text26 = document.getElementById('text26');
+
+
+const en_text1 = "Former metal musician and mechanical engineering student";
+const en_text2 = "Now in middle of a transformation to the digital realm";
+const en_text3 = "Web design, algorithms and electronic sounds";
+const en_text4 = "Not afraid of being beginner on new territory";
+const en_text5 = "Jack of all trades, skilled in few";
+const en_text6 = "Lots of experience in performing in front of";
+const en_text7 = "small and big crowds in both professional and";
+const en_text8 = "entertainment domains";
+const en_text9 = "Programming has always been on my list of interesting subjects";
+const en_text10 = "and when the circumstances were right I dived in. I had some";
+const en_text11 = "experience from past with Python and CoolBasic but now I have";
+const en_text12 = "chosen web technologies to be my main skillset. Basic web design";
+const en_text13 = "with HTML, CSS and JavaScript was where I started and now";
+const en_text14 = "I am moving towards fullstack developing with React and Node";
+const en_text15 = "Photoshop is my weapon of choice for visual work";
+const en_text16 = "ranging from wild photo manipulation to flyer designs";
+const en_text17 = "FL Studio has been with me for almost a decade now";
+const en_text18 = "and gives lots of possibilities ranging from producing";
+const en_text19 = "short commercial sound samples to full range";
+const en_text20 = "songwriting, recording and mixing with studio quality";
+const en_text21 = "Sony Vegas is my latest ally and still has lots of things";
+const en_text22 = "to be found out beyond basic cutting and color grading";
+const en_text23 = "Programming skills";
+const en_text24 = "Multimedia skills";
+const en_text25 = "Speaking";
+const en_text26 = "Improvising";
+
+const fi_text1 = "Entinen koneteekkari ja metallimuusikko";
+const fi_text2 = "Tällä hetkellä digitaalisuuden siirtymävaiheessa";
+const fi_text3 = "Web-kehitys, algoritmit ja elektroninen äänimaisema";
+const fi_text4 = "En pelkää uusien asioiden oppimista";
+const fi_text5 = "Hyvä monessa, taitava muutamassa";
+const fi_text6 = "Runsaasti esiintymiskokemusta";
+const fi_text7 = "niin suurilta kuin pieniltäkin lavoilta";
+const fi_text8 = "sekä viihteen että puhumisen saralta";
+const fi_text9 = "Ohjelmointi on aina ollut yksi kiinnostuksen kohteista ja";
+const fi_text10 = "nyt olosuhteiden ollessa suotuisat tartuin tilaisuuteen.";
+const fi_text11 = "Aiempi ohjelmointikokemus koostui yliopiston python-peruskurssista";
+const fi_text12 = "ja lapsuuden CoolBasic -kokeiluista, mutta nyt olen siirtynyt";
+const fi_text13 = "web-kehitykseen HTML, CSS ja JavaScript -pohjalta.";
+const fi_text14 = "Tällä hetkellä työn alla fullstackin opiskelu Reactin ja Noden kanssa.";
+const fi_text15 = "Photoshop on ykköstyökalu kaikkeen visuaaliseen";
+const fi_text16 = "tapahtumajulisteista kuvamanipulaatiohin";
+const fi_text17 = "FL Studion kanssa olen puuhastellut kymmenisen vuotta";
+const fi_text18 = "ja sillä hoituvat monipuolisesti lähes kaikki lyhyistä";
+const fi_text19 = "mainospätkistä aina täysmittaiseen musiikin tuottamiseen";
+const fi_text20 = "säveltämisestä aina nauhoittamiseen asti";
+const fi_text21 = "Sony Vegas on hieman uudempi tuttavuus jonka perusjutut";
+const fi_text22 = "ovat hallussa, mutta erikoistehosteet ja 3D ovat vielä vieraita";
+const fi_text23 = "Ohjelmointitaidot";
+const fi_text24 = "Multimediataidot";
+const fi_text25 = "Puheenlahjat";
+const fi_text26 = "Improvisointi";
+
+const textPackage1 = [en_text1, fi_text1, text1];
+const textPackage2 = [en_text2, fi_text2, text2];
+const textPackage3 = [en_text3, fi_text3, text3];
+const textPackage4 = [en_text4, fi_text4, text4];
+const textPackage5 = [en_text5, fi_text5, text5];
+const textPackage6 = [en_text6, fi_text6, text6];
+const textPackage7 = [en_text7, fi_text7, text7];
+const textPackage8 = [en_text8, fi_text8, text8];
+const textPackage9 = [en_text9, fi_text9, text9];
+const textPackage10 = [en_text10, fi_text10, text10];
+const textPackage11 = [en_text11, fi_text11, text11];
+const textPackage12 = [en_text12, fi_text12, text12];
+const textPackage13 = [en_text13, fi_text13, text13];
+const textPackage14 = [en_text14, fi_text14, text14];
+const textPackage15 = [en_text15, fi_text15, text15];
+const textPackage16 = [en_text16, fi_text16, text16];
+const textPackage17 = [en_text17, fi_text17, text17];
+const textPackage18 = [en_text18, fi_text18, text18];
+const textPackage19 = [en_text19, fi_text19, text19];
+const textPackage20 = [en_text20, fi_text20, text20];
+const textPackage21 = [en_text21, fi_text21, text21];
+const textPackage22 = [en_text22, fi_text22, text22];
+const textPackage23 = [en_text23, fi_text23, text23];
+const textPackage24 = [en_text24, fi_text24, text24];
+const textPackage25 = [en_text25, fi_text25, text25];
+const textPackage26 = [en_text26, fi_text26, text26];
+
+
+const textPage = [textPackage1, textPackage2, textPackage3, textPackage4, textPackage5,
+textPackage6, textPackage7, textPackage8, textPackage9, textPackage10, textPackage11,
+textPackage12, textPackage13, textPackage14, textPackage15, textPackage16, textPackage17,
+textPackage18, textPackage19, textPackage20, textPackage21, textPackage22, textPackage23,
+textPackage24, textPackage25, textPackage26, ...textPageHF]
