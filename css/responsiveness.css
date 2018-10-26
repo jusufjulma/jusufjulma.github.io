@@ -1,0 +1,143 @@
+@media (min-width: 1921px) { /* ULTRA WIDE */
+  body, #mywork-page-body, #contact-page-body{
+    background-size: cover;
+  }
+} /* END OF QUERY */
+@media (max-height: 850px) { /* LAPTOP SHORT */
+  .profile-container{
+    margin-top: 10px;
+  }
+  .profile-name{
+    height: auto;
+    padding-bottom: 30px;
+    font-size: 3rem;
+  }
+  .profile-picture{
+    width: 250px;
+    height: 250px;
+  }
+  .left-side{
+    width: 300px;
+    height: 300px;
+    display: block;
+  }
+  .left-grid-cell{
+    /* outline: magenta 5px solid; */
+    text-align: center;
+    height: auto;
+  }
+  .logo-cell, .logo-cell-name{
+    margin: 10px;
+  }
+  .logo-cell-container{
+    width: auto;
+  }
+  #my-profiles{
+    margin: -10px 0 20px 0;
+  }
+  #contact-me-here{
+    margin-top: 10px;
+    line-height: 0.7;
+  }
+  #contact-linkedin-link, #contact-github-link, #contact-codepen-link{
+    height: 80px;
+  }
+} /* END OF QUERY */
+@media (max-width: 1300px) { /* SMALL LAPTOP/TABLET */
+  .navbar{
+    height: auto;
+    padding: 20px 0;
+  }
+  .navbar ul{
+    width: auto;
+    justify-content: space-around;
+  }
+  .navbar li a{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 760px) { /* SMALL LAPTOP/TABLET */
+  .navbar li a{
+    transform: rotate(30deg);
+    font-size: 1rem;
+  }
+  .navbar{
+    height: 3rem;
+  }
+  #footer-info{
+    display: none;
+  }
+  #linkedin-logo{
+    margin-left: 15px;
+  }
+  .left-side{
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px 5px #000;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0;
+    display: block;
+    animation: none;
+  }
+  .left-grid-cell{
+    /* display: none; */
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+  }
+  .logo-cell-container{
+    /* outline: magenta 5px solid; */
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+  }
+  .logo-cell, .logo-cell-name{
+    /* outline: cyan 5px solid; */
+    display: inline-block;
+    margin: 0;
+    margin-top: 10px;
+    width: 80px;
+    text-align: center;
+  }
+  .logo-cell:hover{
+    filter: brightness(1.5);
+  }
+  #my-profiles{
+    /* outline: green solid 2px; */
+    padding-top: 20px;
+    width: 100%;
+  }
+  #contact-linkedin-link{
+    background-image: url(../images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 2px 2px #000;
+    animation: movearound 2s infinite linear;
+  }
+  #contact-github-link{
+    background-image: url(../images/github.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 2px 2px #000;
+    animation: movearound 2.2s infinite linear reverse;
+  }
+  #contact-codepen-link{
+    background-image: url(../images/codepen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #eee;
+    box-shadow: 2px 2px 2px #000;
+    animation: movearound 1.8s infinite linear;
+  }
+  #contact-me-here{
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}

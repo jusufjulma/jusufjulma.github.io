@@ -1,7 +1,7 @@
 #landing-page-body{
   background-image: url(../images/bg_landing.jpg);
   background-color: #aaa;
-  /* position: absolute; */
+  position: absolute;
   line-height: 1;
 }
 
