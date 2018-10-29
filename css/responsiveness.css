@@ -58,17 +58,40 @@
 }
 @media (max-width: 760px) { /* SMALL LAPTOP/TABLET */
   .navbar li a{
-    transform: rotate(30deg);
-    font-size: 1rem;
+    transform: rotate(20deg);
+    font-size: 0.8rem;
   }
   .navbar{
-    height: 3rem;
+    height: 2rem;
+  }
+  footer{
+    width: 100%;
   }
   #footer-info{
     display: none;
   }
   #linkedin-logo{
     margin-left: 15px;
+  }
+  .profile-container, .profile-name{
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+  .profile-picture{
+    width: 100px;
+    height: 100px;
+  }
+  .profile-skilltree{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    color: var(--main-text-color);
+    font-size: 1rem;
   }
   .left-side{
     border-radius: 0px;
@@ -139,5 +162,6 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    padding-bottom: 1rem;
   }
 }
