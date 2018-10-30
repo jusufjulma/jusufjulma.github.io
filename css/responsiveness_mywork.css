@@ -1,0 +1,197 @@
+@media (min-width: 1921px) { /* ULTRA WIDE */
+  body{
+    background-size: cover;
+  }
+  .projects-container{
+    height: 80%;
+  }
+} /* END OF QUERY */
+@media (max-height: 850px) { /* LAPTOP SHORT */
+
+} /* END OF QUERY */
+@media (max-width: 1440px) { /* LAPTOP*/
+  #mywork-page-body{
+    background-image: url(../images/back1.jpg), url(../images/back2.jpg), url(../images/back1.jpg);
+    background-repeat: repeat, repeat-x, repeat-x;
+    background-position: 0 0, 0px 1080px, 0px 2160px;
+  }
+  .navbar ul{
+    width: auto;
+    justify-content: space-around;
+  }
+  footer{
+    position: static;
+  }
+  #github-logo-h2{
+    display: none;
+  }
+  h1{
+    padding: 2rem 0;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  .projects-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px 20px;
+    padding-bottom: 60px;
+  }
+  .project{
+    grid-template-rows: 1fr 1fr 4fr;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .project1, .project4{
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+    filter: sepia(0.8);
+    box-shadow: 0 0 5px 3px #000;
+  }
+  #project2{
+    outline: double 5px #111;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-gap: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  #project3{
+    outline: double 5px #111;
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-gap: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+} /* END OF QUERY */
+
+@media (max-width: 1200px) {
+  h3{
+    font-size: 1.2rem;
+  }
+  .navbar{
+    height: auto;
+    padding: 20px 0;
+  }
+  .navbar ul{
+    width: auto;
+    justify-content: space-around;
+  }
+  .navbar li a{
+    font-size: 1.5rem;
+  }
+} /* END OF QUERY */
+@media (max-width: 900px) {
+  #goat-break{
+    display: none;
+  }
+}
+@media (max-width: 870px) { /* SMARTPHONE */
+  h1{
+    font-size: 3.5rem;
+    margin-top: -2rem;
+    margin-bottom: 0;
+  }
+  .project{
+     margin: 0;
+     /* outline: cyan solid 3px; */
+     grid-template-columns: 1fr;
+     grid-template-rows: 2fr 1fr;
+  }
+  .project h2{
+    /* outline: yellow solid; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #project1 h2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #project1-1{
+    grid-row: 3 / 4;
+  }
+  #project1-2{
+    grid-row: 5 / 6;
+  }
+  #project1-3{
+    grid-row: 7 / 8;
+  }
+  #project2 h2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #project2{
+    margin: 0;
+    /* display: none; */
+    /* outline: red solid 3px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+  .projects-container{
+    grid-template-rows: 1fr;
+  }
+  #project2-1{
+    grid-row: 3 / 4;
+  }
+  #project2-2{
+    grid-row: 5 / 6;
+  }
+  #project2-3{
+    grid-row: 7 / 8;
+  }
+  #project3 h2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #project3{
+    /* display: none; */
+    margin: 0;
+    /* outline: red solid 3px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+  .project3{
+    width: 200px;
+  }
+  #project3-1{
+    grid-row: 3 / 4;
+  }
+  #project4{
+    /* display: none; */
+  }
+  #project4 h2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  #project4-1{
+    grid-row: 3 / 4;
+  }
+  #project4-2{
+    grid-row: 5 / 6;
+  }
+
+
+} /* END OF QUERY */
+@media (max-width: 760px) { /* FINAL NAVBAR/FOOTER */
+  .navbar li a{
+    transform: rotate(20deg);
+    font-size: 0.8rem;
+  }
+  .navbar{
+    height: 2rem;
+  }
+  #footer-info{
+    display: none;
+  }
+  #linkedin-logo{
+    margin-left: 15px;
+  }
+} /* END OF QUERY */

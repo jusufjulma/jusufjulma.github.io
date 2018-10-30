@@ -173,7 +173,7 @@ h3{
   background-repeat: no-repeat;
 }
 .project4{
-  /* outline: green solid 1px; */
+  /* outline: green solid 3px; */
   margin: 0px 20px 20px 20px;
   width: 200px;
   height: 200px;
@@ -198,10 +198,4 @@ h3{
   background-image: url(../images/mywork/loading.gif);
   background-position: center;
   background-repeat: no-repeat;
-}
-.footerkicker{
-  position: static;
-  bottom: 0;
-  width: 100%;
-  outline: red solid 3px;
 }
