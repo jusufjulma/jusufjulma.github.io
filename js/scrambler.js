@@ -8,8 +8,13 @@ function scrambler(textPage) {                // this is the one to start transf
   for (let i = 0; i < textPage.length; i++) {      // texts are collected in an array of arrays
     splitter(...textPage[i])          // which are then given as parameters
   }
-  if (textState === 0) textState = 1;
-  else textState = 0;
+  if (textState === 0){
+    textState = 1;
+    sessionStorage.setItem('language', '1');
+  }else {
+    textState = 0;
+    sessionStorage.setItem('language', '0');
+  }
 }
 
 
@@ -53,3 +58,5 @@ function spinner(from, to, spinCount, where) {      // executes transformations
 function renderer(input, where) {     // this function updates DOM after every change
   where.innerHTML = input.join("");   // so that the animation is visible for user
 }
+
+whichLanguage();    // loads correct language while loading (external script)
