@@ -1,0 +1,401 @@
+@media (min-width: 1921px) { /* ULTRA WIDE */
+  body{
+    background-size: cover;
+  }
+  .whoami-page2{
+    background-image: url();
+    background-color: rgba(0,0,0,0);
+    margin: 0 0 0 0;
+    padding: 5rem 0;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1.5rem;
+  }
+} /* END OF QUERY */
+@media (max-height: 850px) { /* LAPTOP SHORT */
+
+} /* END OF QUERY */
+@media (max-width: 1440px) { /* LAPTOP*/
+  .navbar ul{
+    width: auto;
+    justify-content: space-around;
+  }
+  .textbox-1{
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-left: 0;
+    margin-right: 5%;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  .textbox-2{
+    float: right;
+    clear: right;
+    position: relative;
+    margin-left: 0;
+    margin-right: 20%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .textbox-3{
+    float: right;
+    clear: right;
+    position: relative;
+    margin-left: 0;
+    margin-right: 10%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  .textbox-4{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 30rem;
+    margin-left: 5%;
+    height: 150px;
+    width: 400px;
+    background-image: url(../images/codesnippet.jpg);
+    background-color: rgba(200, 200, 60, 0.8);
+    background-blend-mode: luminosity;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    box-shadow: 0 0 10px 2px var(--main-text-color);
+    animation: scrollcode 30s linear infinite;
+  }
+  @keyframes scrollcode{
+    0% {background-position-y: 0%;}
+    100% {background-position-y: 119%;}
+  }
+  .whoami-page2{
+    background-size: cover;
+    padding: 4rem 0;
+    width: auto;
+    height: auto;
+    clear: both;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .skillbox-1, .skillbox-2{
+    height: auto;
+    width: 50%;
+    padding-left: 0;
+    margin-left: 10%;
+    padding: 0 0;
+    margin-bottom: -3rem;
+    margin-top: -2rem;
+  }
+  .whoami-infobox{
+    height: auto;
+    width: auto;
+    margin-top: -4rem;
+    margin-left: 10%;
+  }
+
+} /* END OF QUERY */
+/*###############################################*/
+/* WHOAMI ABOVE, MYWORK BELOW */
+/*###############################################*/
+/* LOL JK */
+/*###############################################*/
+@media (max-width: 1200px) { /* SMALLER LAPTOP */
+  .navbar{
+    height: auto;
+    padding: 20px 0;
+  }
+  .navbar ul{
+    width: auto;
+    justify-content: space-around;
+  }
+  .navbar li a{
+    font-size: 1.5rem;
+  }
+  .textbox-1{
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin-left: 0;
+    margin-right: 5%;
+    margin-top: 4rem;
+    font-size: 1rem;
+  }
+  .textbox-2{
+    float: right;
+    clear: right;
+    position: relative;
+    margin-left: 0;
+    margin-right: 17%;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .textbox-3{
+    float: right;
+    clear: right;
+    position: relative;
+    margin-left: 0;
+    margin-right: 8%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+  }
+  .textbox-4{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 20rem;
+    margin-left: 5%;
+    height: 150px;
+    width: 400px;
+    background-image: url(../images/codesnippet.jpg);
+    background-color: rgba(200, 200, 60, 0.8);
+    background-blend-mode: luminosity;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    box-shadow: 0 0 10px 2px var(--main-text-color);
+    animation: scrollcode 30s linear infinite;
+  }
+  @keyframes scrollcode{
+    0% {background-position-y: 0%;}
+    100% {background-position-y: 119%;}
+  }
+  .whoami-page2{
+    background-size: cover;
+    padding: 4rem 0;
+    width: auto;
+    height: auto;
+    clear: both;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .skillbox-1, .skillbox-2{
+    height: auto;
+    width: 50%;
+    padding-left: 0;
+    margin-left: 10%;
+    padding: 0 0;
+    margin-bottom: -3rem;
+    margin-top: -2rem;
+  }
+  .line{
+    border-bottom: 2px solid var(--main-text-color);
+    width: 100%;
+    margin-top: 50px;
+    opacity: 0.3;
+  }
+  .skill-header{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    color: var(--main-text-color);
+    border-bottom: 3px solid var(--main-text-color);
+    margin-bottom: 50px;
+  }
+  .skill-bar{
+    float: left;
+    margin-left: 12%;
+    transform: translateY(-100%);
+    outline: 3px solid black;
+    box-shadow: 2px 3px 3px 3px #000;
+    width: 5%;
+    height: 220px;
+    background-image: url(../images/progressbar_y.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+  .desc-programming-container{
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 50%;
+  }
+  .desc-programming{
+    margin-left: 12%;
+    float: left;
+    width: 5%;
+    text-align: center;
+  }
+  .desc-multimedia-container{
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -2%;
+    width: 50%;
+  }
+  .desc-multimedia{
+    margin-left: 12%;
+    float: left;
+    width: 5%;
+    text-align: left;
+    transform: rotate(22deg);
+  }
+  .whoami-infobox{
+    height: auto;
+    width: auto;
+    font-size: 1.2rem;
+    margin-top: -4rem;
+    margin-left: 10%;
+  }
+} /* END OF QUERY */
+
+@media (max-width: 1000px) {
+  .textbox-4{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 15rem;
+    margin-left: 5%;
+    height: 300px;
+    width: 200px;
+    background-image: url(../images/codesnippet.jpg);
+    background-size: 250%;
+    background-color: rgba(200, 200, 60, 0.8);
+    background-blend-mode: luminosity;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    box-shadow: 0 0 10px 2px var(--main-text-color);
+    animation: scrollcode 20s linear infinite;
+  }
+  @keyframes scrollcode{
+    0% {background-position-y: 0%;}
+    100% {background-position-y: 172%;}
+  }
+}
+@media (max-width: 760px) { /* SMARTPHONE */
+  .navbar li a{
+    transform: rotate(20deg);
+    font-size: 0.8rem;
+  }
+  .navbar{
+    height: 2rem;
+  }
+  #footer-info{
+    display: none;
+  }
+  #linkedin-logo{
+    margin-left: 15px;
+  }
+  .textbox-1{
+    display: inline-block;
+    float: none;
+    position: relative;
+    margin: 0 1rem;
+    margin-top: 2rem;
+    font-size: 0.7rem;
+  }
+  .textbox-2{
+    float: none;
+    position: relative;
+    margin: 0 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+  }
+  .textbox-3{
+    float: none;
+    position: relative;
+    margin: 0 1rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    margin-bottom: 5rem;
+  }
+  .textbox-4{
+    display: none;
+    position: absolute;
+    float: left;
+    top: 20rem;
+    margin-left: 5%;
+    height: 150px;
+    width: 400px;
+    background-image: url(../images/codesnippet.jpg);
+    background-color: rgba(200, 200, 60, 0.8);
+    background-blend-mode: luminosity;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    box-shadow: 0 0 10px 2px var(--main-text-color);
+    animation: scrollcode 30s linear infinite;
+  }
+  @keyframes scrollcode{
+    0% {background-position-y: 0%;}
+    100% {background-position-y: 119%;}
+  }
+  .whoami-page2{
+    background-size: cover;
+    padding: 4rem 0;
+    width: auto;
+    height: auto;
+    clear: both;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .skillbox-1, .skillbox-2{
+    height: auto;
+    width: 80%;
+    padding-left: 0;
+    margin-left: 10%;
+    padding: 0 0;
+    margin-bottom: -3rem;
+    margin-top: -2rem;
+  }
+  .line{
+    border-bottom: 2px solid var(--main-text-color);
+    width: 100%;
+    margin-top: 50px;
+    opacity: 0.3;
+  }
+  .skill-header{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    color: var(--main-text-color);
+    border-bottom: 3px solid var(--main-text-color);
+    margin-bottom: 50px;
+  }
+  .skill-bar{
+    float: left;
+    margin-left: 12%;
+    transform: translateY(-100%);
+    outline: 3px solid black;
+    box-shadow: 2px 3px 3px 3px #000;
+    width: 5%;
+    height: 220px;
+    background-image: url(../images/progressbar_y.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+  .desc-programming-container{
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 80%;
+  }
+  .desc-programming{
+    margin-left: 12%;
+    float: left;
+    width: 5%;
+    text-align: center;
+    transform: rotate(90deg);
+  }
+  .desc-multimedia-container{
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 80%;
+  }
+  .desc-multimedia{
+    margin-left: 12%;
+    float: left;
+    width: 5%;
+    text-align: left;
+    transform: rotate(90deg);
+  }
+  .whoami-infobox{
+    height: auto;
+    width: auto;
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-top: -4rem;
+  }
+} /* END OF QUERY */
