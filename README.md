@@ -4,7 +4,7 @@
 ### Website to showcase some projects and overall skill level.
 Technologies used: HTML, CSS, JS
 
-Contents
+Contents:
 * Brief description of me
 * Some projects from coding and other interests
 * Links to other profiles and contact information
