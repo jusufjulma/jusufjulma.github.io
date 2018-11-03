@@ -52,7 +52,7 @@ html, body{
   /* outline: blue solid 3px; */
 }
 #language{
-  cursor: context-menu;
+  cursor: pointer;
 }
 footer{
   position: fixed;
