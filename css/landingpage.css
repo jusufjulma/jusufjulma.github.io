@@ -5,7 +5,7 @@
   position: absolute;
   line-height: 1;
   /* -webkit-transition: background-image 3s cubic-bezier(.93,.32,.26,.99); */
-  transition: background-image 4s cubic-bezier(.57,.49,.26,.99);
+  transition: background-image 3s cubic-bezier(.57,.49,.26,.99);
 }
 
 .profile-container{
