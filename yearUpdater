@@ -1,1 +1,1 @@
-grep -rl 2018 . | grep html | xargs sed -i 's/2018/2019/g' *html
+grep -rl 2019 . | grep html | xargs sed -i 's/2019/2020/g' *html
